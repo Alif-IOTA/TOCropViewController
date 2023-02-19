@@ -231,16 +231,16 @@
             [buttonsInOrderHorizontally addObject:self.rotateCounterclockwiseButton];
         }
         
-        if (!self.resetButtonHidden) {
-            [buttonsInOrderHorizontally addObject:self.resetButton];
+        if (!self.rotateClockwiseButtonHidden) {
+            [buttonsInOrderHorizontally addObject:self.rotateClockwiseButton];
         }
         
         if (!self.clampButtonHidden) {
             [buttonsInOrderHorizontally addObject:self.clampButton];
         }
         
-        if (!self.rotateClockwiseButtonHidden) {
-            [buttonsInOrderHorizontally addObject:self.rotateClockwiseButton];
+        if (!self.resetButtonHidden) {
+            [buttonsInOrderHorizontally addObject:self.resetButton];
         }
         [self layoutToolbarButtons:buttonsInOrderHorizontally withSameButtonSize:buttonSize inContainerRect:containerRect horizontally:YES];
     }
